@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!--header/navbar-->
+    <header>
+      <img src="assets/logo.png" style="height: 50px; width: 50px" />
+      <ul class="navigation">
+        <li>
+          <a href="index.html">Home</a>
+        </li>
+        <li>
+          <a href="#company-info">Our Profile</a>
+        </li>
+        <li>
+          <a href="#portofolio">Portofolio</a>
+        </li>
+        <li>
+          <a href="#message_form">Message Us</a>
+        </li>
+      </ul>
+    </header>
+
+    <!--content-->
+    <main>
+      <div class="first">
+        <h1>
+          Hi, <span id="name" class="button-link">Who Are You?</span> ,Welcome To RevoU Website
+        </h1>
+        <p>Ini adalah website latihan pertama</p>
+      </div>
+        <p></p>
+        <div class="banner-container">
+          <div class="banner_slides">
+            <img src="assets/banner.png" alt="banner1" />
+            <img src="assets/banner1.jpg" alt="banner2" />
+            <img src="assets/banner2.png" alt="banner3" />
+            <img src="assets/banner3.png" alt="banner4" />
+          </div>
+        </div>
+        <div class="company-info">
+          <h2>About US</h2>
+          <p>
+            RevoU is a rapidly growing online education platform that offers courses in digital marketing, data analytics, product management, and other tech-related fields. Founded in Indonesia, RevoU has quickly gained traction for its innovative approach to skill-building and career advancement.
+One notable aspect of RevoU is its focus on practical, hands-on learning. Rather than just providing theoretical knowledge, the platform emphasizes real-world projects and case studies, giving students the opportunity to apply what they learn in a practical setting. This approach not only enhances retention but also equips students with valuable skills that are directly applicable in the workforce.
+Moreover, RevoU boasts a team of industry experts and experienced professionals as instructors, ensuring that students receive high-quality instruction and relevant insights into the latest trends and best practices in their respective fields. These instructors not only deliver lectures but also provide personalized feedback and guidance, creating a supportive learning environment conducive to growth and development.
+Another key feature of RevoU is its focus on job placement and career support. The platform works closely with partner companies to connect students with internship and job opportunities upon completing their courses. Additionally, RevoU provides career coaching services, helping students refine their resumes, prepare for interviews, and develop essential soft skills to succeed in their chosen careers.
+Overall, RevoU stands out as a forward-thinking education platform that is dedicated to empowering individuals with the skills and knowledge needed to thrive in the digital age. With its practical approach to learning, experienced instructors, and strong emphasis on career support, RevoU is poised to continue making a significant impact on the professional development landscape in Indonesia and beyond.
+          </p>
+        </div>
+        <div class="company-visi-misi">
+          <h2>
+            Vision and Mission RevoU
+          </h2>
+          <h3>Visi</h3>
+          <p>
+"Menjadi pemimpin dalam transformasi pendidikan online di Indonesia dengan menyediakan aksesibilitas yang luas kepada individu untuk meningkatkan keterampilan digital mereka dan mencapai kesuksesan dalam karir mereka."
+          </p>
+          <h3>Misi</h3>
+          <p>
+Memberikan kursus berkualitas tinggi dalam bidang digital marketing, data analytics, dan manajemen produk, serta bidang-bidang teknologi lainnya yang relevan dengan kebutuhan industri saat ini.
+Menyediakan pengalaman belajar yang praktis dan berorientasi pada proyek, memungkinkan siswa untuk mengaplikasikan pengetahuan yang mereka peroleh secara langsung dalam lingkungan kerja nyata.
+Mendukung siswa dalam mencapai tujuan karir mereka dengan menyediakan bimbingan karir, konseling, dan akses ke peluang magang dan pekerjaan.
+Terus berinovasi dalam pendidikan online, memanfaatkan teknologi dan metodologi terbaru untuk meningkatkan pengalaman belajar siswa.
+Menjaga kualitas instruksi dengan merekrut dan mempertahankan instruktur yang berkualitas tinggi dan berpengalaman di industri yang relevan.
+Berkomitmen pada inklusivitas dan keberagaman, memastikan bahwa pendidikan yang ditawarkan dapat diakses oleh berbagai lapisan masyarakat di seluruh Indonesia.
+Visi dan misi ini mencerminkan komitmen RevoU untuk menjadi pionir dalam transformasi pendidikan online di Indonesia, serta fokus mereka untuk memberikan nilai tambah yang konkret kepada siswa dalam mencapai kesuksesan dalam karir mereka.
+          </p>
+        </div>
+      </div>
+      <br/>
+
+      <div class="offices">
+        <div class="our-headquarter">
+          <h1>Our Headquarter</h1>
+        </div>
+          <div class="office">
+            <div>
+              <div class="circle-image">
+                <img
+                  src="assets/jakarta.jpg"
+                  style="height: 100px; width: 100px"
+                />
+              </div>
+              <h5>Jakarta</h5>
+            </div>
+            <div>
+              <div class="circle-image">
+                <img
+                  src="assets/bandung.jpg"
+                  style="height: 100px; width: 100px"
+                />
+              </div>
+              <h5>Bandung</h5>
+            </div>
+            <div>
+              <div class="circle-image">
+                <img
+                  src="assets/surabaya.jpg"
+                  style="height: 100px; width: 100px"
+                />
+              </div>
+              <h5>Surabaya</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="message-us">
+        <div class="row align-items-start">
+          <h1>Message Us</h1>
+
+          <div class="left-column">
+            <form id="message_form">
+              <table>
+                <tr>
+                  <td for="fullname">Nama </td>
+                  <td>: <input type="text" id="fullname" placeholder="Nama Lengkap" style="width:85%"/></td>
+                </tr>
+                <tr>
+                  <td for="dob">Tanggal Lahir</td>
+                  <td>: <input type="date" id="dob" style="width:85%"/></td>
+                </tr>
+                <tr>
+                  <td for="gender">Jenis Kelamin</td>
+                  <td> : 
+                    <input type="radio" id="gender_male" name="gender" value="Laki-laki" />
+                      <label for="gender_male">Laki-laki</label>
+                    <input type="radio" id="gender_female" name="gender" value="Perempuan" />
+                      <label for="gender_female">Perempuan</label>
+                    </td>
+                </tr>
+                <tr>
+                  <td for="message">Pesan</td>
+                  <td>: <textarea id="message" placeholder="Pesan" style="width:85%"></textarea></td>
+                </tr>
+                <tr>
+                  <td>
+                    <input type="submit" value="Submit" style="width:465%">
+                    <td style="width:80%"></td>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </div>
+
+          <div class="right-column">
+            <div class="output">
+              <div id="form-data"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </main>
+
+    <!--footer-->
+    <footer>
+      <p  style="text-align: right;">Created By RevoU</p>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>
